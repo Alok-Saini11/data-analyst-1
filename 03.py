@@ -112,3 +112,26 @@ print(y)
 x="DataScience"
 y=x[4:10]
 print(y)
+
+#14.take a username from the user and his age print username in [Ravi] this format and print age by adding 5
+fname=input("enter your name")
+age = int(input("enter your age"))
+print(age+5)
+x= fname.strip()
+y=x[0].upper()
+y1=x[1:].lower()
+print(y+y1)
+
+#15.string modify
+fname=input("enter your name")
+lname=input("enter your lastname")
+x=fname.strip()
+y=lname.strip()
+x1=x[0].upper()
+y1=y[0].upper()
+x2=x[1:].lower()
+y2=y[1:].lower()
+x3=x1+x2
+y3=y1+y2
+z=x3+" "+y3
+print(z)
