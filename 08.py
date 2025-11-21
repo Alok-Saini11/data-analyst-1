@@ -36,7 +36,9 @@ def test(a,b):
         return b    
 test_1= test(2,5)
 print(test_1)
+
 test_2 = test(10,3)
 print(test_2)
+
 test_3 = test(test_1,test_2)
 print(test_3)
